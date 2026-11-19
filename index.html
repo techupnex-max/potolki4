@@ -1,0 +1,756 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Студия натяжных потолков Sturov в Воронеже. Официальный представитель европейских потолков Карэ Нуар. Монтаж под ключ от 139 ₽/м², страховка от негарантийных случаев, сертификат на 7 000 ₽.">
+  <title>STUROV — Натяжные потолки в Воронеже | Официальный представитель Карэ Нуар</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,600;0,700;1,600&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="scroll-line" id="scrollLine"></div>
+
+  <!-- ======================================================================
+       ШАПКА САЙТА
+       ====================================================================== -->
+  <header class="header" id="header">
+    <div class="container header__row">
+      <a href="#top" class="logo" aria-label="Sturov — Натяжные потолки в Воронеже">
+        <span class="logo__badge">S</span>
+        <span class="logo__text">
+          <span class="logo__name">STUROV</span>
+          <span class="logo__city">Натяжные потолки • Воронеж</span>
+        </span>
+      </a>
+
+      <nav class="nav-menu" aria-label="Навигация по разделам">
+        <a href="#insurance" class="nav-menu__item" data-sec="insurance">Страховка и гарантии</a>
+        <a href="#calculator" class="nav-menu__item" data-sec="calculator">Калькулятор и 7 000 ₽</a>
+        <a href="#catalog" class="nav-menu__item" data-sec="catalog">Виды и цены</a>
+        <a href="#portfolio" class="nav-menu__item" data-sec="portfolio">Портфолио</a>
+        <a href="#reviews" class="nav-menu__item" data-sec="reviews">Отзывы</a>
+        <a href="#faq" class="nav-menu__item" data-sec="faq">Вопросы</a>
+        <a href="#contacts" class="nav-menu__item" data-sec="contacts">Контакты</a>
+      </nav>
+
+      <div class="header__actions">
+        <a href="tel:+74732293861" class="header__tel">8 (473) 229-38-61</a>
+
+        <a href="tel:+74732293861" class="header__tel-mob" aria-label="Позвонить">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2">
+            <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+          </svg>
+        </a>
+
+        <button type="button" class="btn btn--copper header__cta-desk" data-lead="Бесплатный выезд замерщика">
+          Вызвать замерщика
+        </button>
+
+        <button type="button" class="burger-btn" id="burgerBtn" aria-label="Меню" aria-expanded="false">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+
+    <nav class="mob-subnav" aria-label="Разделы сайта">
+      <a href="#insurance" class="mob-subnav__link" data-sec="insurance">Страховка</a>
+      <a href="#calculator" class="mob-subnav__link" data-sec="calculator">Калькулятор и 7 000 ₽</a>
+      <a href="#catalog" class="mob-subnav__link" data-sec="catalog">Виды и цены</a>
+      <a href="#portfolio" class="mob-subnav__link" data-sec="portfolio">Портфолио</a>
+      <a href="#reviews" class="mob-subnav__link" data-sec="reviews">Отзывы</a>
+      <a href="#faq" class="mob-subnav__link" data-sec="faq">Вопросы</a>
+      <a href="#contacts" class="mob-subnav__link" data-sec="contacts">Контакты</a>
+    </nav>
+  </header>
+
+  <div class="mob-nav" id="mobNav" aria-hidden="true">
+    <nav class="mob-nav__list" aria-label="Мобильное меню">
+      <a href="#insurance" class="mob-nav__link" data-sec="insurance">Страховка и гарантии</a>
+      <a href="#calculator" class="mob-nav__link" data-sec="calculator">Калькулятор + 7 000 ₽</a>
+      <a href="#catalog" class="mob-nav__link" data-sec="catalog">Виды и цены</a>
+      <a href="#portfolio" class="mob-nav__link" data-sec="portfolio">Портфолио</a>
+      <a href="#reviews" class="mob-nav__link" data-sec="reviews">Отзывы</a>
+      <a href="#faq" class="mob-nav__link" data-sec="faq">Вопросы</a>
+      <a href="#contacts" class="mob-nav__link" data-sec="contacts">Контакты</a>
+    </nav>
+
+    <div style="margin-top: 28px; display: flex; flex-direction: column; gap: 12px;">
+      <a href="tel:+74732293861" class="tel-main">8 (473) 229-38-61</a>
+      <button type="button" class="btn btn--copper" data-lead="Заказать бесплатный замер">
+        Заказать бесплатный замер
+      </button>
+    </div>
+  </div>
+
+  <main id="top">
+    <!-- 1. ПЕРВЫЙ ЭКРАН -->
+    <section class="hero">
+      <div class="container hero__grid">
+        <div class="anim-up">
+          <div class="hero__tags">
+            <span class="tag-chip tag-chip--accent">Официальный представитель «Карэ Нуар»</span>
+            <span class="tag-chip">★ 5.0 • 200+ отзывов в Воронеже</span>
+          </div>
+
+          <h1 class="hero__title">
+            Архитектурные <i>натяжные потолки</i> под ключ в Воронеже
+          </h1>
+
+          <p class="hero__lead">
+            Устанавливаем европейские полотна «Карэ Нуар» от <strong>139 ₽/м²</strong> за 1 день.
+            Единственные в городе включаем в договор <strong>страховку от негарантийных случаев</strong> и дарим сертификат на <strong>7 000 ₽</strong>.
+          </p>
+
+          <div class="hero__btns">
+            <button type="button" class="btn btn--copper" data-lead="Получить сертификат на 7 000 ₽">
+              Получить сертификат 7 000 ₽
+            </button>
+            <a href="#calculator" class="btn btn--ghost">
+              Рассчитать стоимость
+            </a>
+          </div>
+
+          <div class="hero__metrics">
+            <div>
+              <div class="metric__num">от <span>139 ₽</span></div>
+              <div class="metric__txt">за м² полотна с установкой под ключ</div>
+            </div>
+            <div>
+              <div class="metric__num"><span>7 000 ₽</span></div>
+              <div class="metric__txt">подарочный сертификат каждому заказчику</div>
+            </div>
+            <div>
+              <div class="metric__num"><span>100%</span></div>
+              <div class="metric__txt">защита от залива и случайных порезов</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="visual-showcase anim-scale" data-delay="120">
+          <div class="visual-showcase__frame">
+            <img
+              id="heroShowcaseImg"
+              src="https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=1200&q=85"
+              alt="Современный интерьер гостиной с теневым натяжным потолком и световыми линиями"
+            >
+            <div class="visual-showcase__overlay">
+              <span class="visual-showcase__pill" id="heroShowcaseTag">Теневой профиль EuroKRAAB + треки</span>
+              <div class="visual-showcase__caption">
+                <div>
+                  <strong id="heroShowcaseTitle">Гостиная с теневым потолком «Карэ Нуар»</strong>
+                  <span id="heroShowcaseSub">Идеально ровный зазор без плинтусов и вставок</span>
+                </div>
+                <span class="visual-showcase__price">от 139 ₽/м²</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="showcase-switcher" role="tablist" aria-label="Выбор примера потолка">
+            <button type="button" class="switcher-btn is-active" data-slide="0">Теневой</button>
+            <button type="button" class="switcher-btn" data-slide="1">Световые линии</button>
+            <button type="button" class="switcher-btn" data-slide="2">Парящий LED</button>
+            <button type="button" class="switcher-btn" data-slide="3">Матовый</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 2. СТРАХОВКА ОТ НЕГАРАНТИЙНЫХ СЛУЧАЕВ -->
+    <section class="section" id="insurance">
+      <div class="container">
+        <div class="section-top section-top--row anim-up">
+          <div>
+            <span class="eyebrow">Преимущества студии</span>
+            <h2 class="display-h2">Спокойствие за потолок на годы вперёд</h2>
+          </div>
+          <p class="section-note">
+            Обычные компании отвечают только за заводской брак. Мы защищаем ваш ремонт даже в бытовых непредвиденных ситуациях.
+          </p>
+        </div>
+
+        <div class="trust-grid">
+          <div class="shield-banner anim-up">
+            <div>
+              <span class="shield-banner__badge">Эксклюзивная программа Sturov</span>
+              <h3>Страховка от негарантийных случаев для наших заказчиков</h3>
+              <p>
+                Затопили соседи сверху, задели полотно при сборке мебели или случайно проткнули? Сервисная бригада Sturov оперативно приедет, сольёт воду и восстановит потолок по страховке.
+              </p>
+              <ul class="shield-list">
+                <li>✓ Слив воды при заливе сверху</li>
+                <li>✓ Ремонт при случайном порезе</li>
+                <li>✓ Бесплатный выезд технолога</li>
+                <li>✓ Фиксация условий в договоре</li>
+              </ul>
+            </div>
+
+            <div>
+              <button type="button" class="btn btn--brass" data-lead="Узнать условия страховки Sturov">
+                Узнать подробнее о страховке
+              </button>
+            </div>
+          </div>
+
+          <div class="pillars">
+            <article class="pillar-card anim-up" data-delay="80">
+              <div class="pillar-card__head">
+                <span class="pillar-card__idx">01</span>
+                <h3>Единственный официальный представитель «Карэ Нуар» в Воронеже</h3>
+              </div>
+              <p>Поставляем оригинальные европейские полотна с маркировкой и сертификатами безопасности. Без резкого запаха, провисания и выцветания.</p>
+            </article>
+
+            <article class="pillar-card anim-up" data-delay="160">
+              <div class="pillar-card__head">
+                <span class="pillar-card__idx">02</span>
+                <h3>Фиксированная смета на бесплатном замере</h3>
+              </div>
+              <p>Технолог привозит образцы фактур, светильников и профилей. Считаем точную стоимость на месте и закрепляем её в договоре без скрытых доплат.</p>
+            </article>
+
+            <article class="pillar-card anim-up" data-delay="240">
+              <div class="pillar-card__head">
+                <span class="pillar-card__idx">03</span>
+                <h3>Чистый монтаж с пылесосом за 1 день</h3>
+              </div>
+              <p>Работаем перфораторами с пылесборниками и безопасными композитными баллонами. Обои, паркет и мебель остаются в идеальном состоянии.</p>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 3. КАЛЬКУЛЯТОР И СЕРТИФИКАТ НА 7 000 ₽ -->
+    <section class="section calc-band" id="calculator">
+      <div class="container">
+        <div class="section-top section-top--row anim-up">
+          <div>
+            <span class="eyebrow">Онлайн-калькулятор</span>
+            <h2 class="display-h2">Рассчитайте бюджет со скидкой 7 000 ₽</h2>
+          </div>
+          <p class="section-note">
+            Выберите площадь, тип полотна и количество светильников, чтобы сразу увидеть стоимость с учётом подарочного сертификата.
+          </p>
+        </div>
+
+        <div class="calc-box anim-scale">
+          <div>
+            <div class="c-block">
+              <div class="c-head">
+                <label class="c-title" for="areaSlider">Площадь помещения</label>
+                <span class="c-badge" id="areaBadge">18 м²</span>
+              </div>
+              <input type="range" id="areaSlider" class="slider" min="6" max="120" value="18">
+            </div>
+
+            <div class="c-block">
+              <div class="c-head">
+                <span class="c-title">Исполнение потолка «Карэ Нуар»</span>
+              </div>
+              <div class="type-grid" id="typeOptions">
+                <button type="button" class="type-opt is-active" data-price="490">
+                  <strong>Матовый / Глянец</strong>
+                  <span>Классика под ключ</span>
+                </button>
+                <button type="button" class="type-opt" data-price="790">
+                  <strong>Теневой профиль</strong>
+                  <span>Ровный зазор без вставки</span>
+                </button>
+                <button type="button" class="type-opt" data-price="980">
+                  <strong>Световые линии</strong>
+                  <span>Встроенное LED-освещение</span>
+                </button>
+              </div>
+            </div>
+
+            <div class="c-block">
+              <div class="c-head">
+                <span class="c-title">Освещение и геометрия комнаты</span>
+              </div>
+              <div class="steppers">
+                <div class="stepper">
+                  <span class="stepper__label">Точечные светильники</span>
+                  <div class="stepper__ctrl">
+                    <button type="button" class="step-btn" data-step="lamps" data-dir="-1">−</button>
+                    <strong id="lampsCount">6</strong>
+                    <button type="button" class="step-btn" data-step="lamps" data-dir="1">+</button>
+                  </div>
+                </div>
+
+                <div class="stepper">
+                  <span class="stepper__label">Углы в помещении</span>
+                  <div class="stepper__ctrl">
+                    <button type="button" class="step-btn" data-step="corners" data-dir="-1">−</button>
+                    <strong id="cornersCount">4</strong>
+                    <button type="button" class="step-btn" data-step="corners" data-dir="1">+</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="calc-ticket">
+            <div>
+              <label class="cert-box" for="certToggle">
+                <div>
+                  <strong>Сертификат на 7 000 ₽</strong>
+                  <span>Применить к расчёту заказа</span>
+                </div>
+                <input type="checkbox" id="certToggle" checked>
+              </label>
+
+              <div class="price-old" id="oldPriceText">16 820 ₽</div>
+              <div class="price-now" id="newPriceText">9 820 ₽</div>
+              <p style="font-size: 0.82rem; color: rgba(255,255,255,0.78); margin-bottom: 24px;">
+                В расчёт включены полотно «Карэ Нуар», монтаж, страховка от негарантийных случаев и выезд замерщика в Воронеже.
+              </p>
+            </div>
+
+            <button type="button" class="btn btn--brass" id="saveCalcBtn">
+              Закрепить цену и 7 000 ₽
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 4. ВИДЫ НАТЯЖНЫХ ПОТОЛКОВ И ЦЕНЫ -->
+    <section class="section" id="catalog">
+      <div class="container">
+        <div class="section-top section-top--row anim-up">
+          <div>
+            <span class="eyebrow">Каталог и цены</span>
+            <h2 class="display-h2">Потолки под ключ от 139 ₽/м²</h2>
+          </div>
+          <p class="section-note">
+            Подберите фактуру и световое решение под задачу вашей комнаты.
+          </p>
+        </div>
+
+        <div class="tabs-bar" role="tablist">
+          <button type="button" class="tab-pill is-active" data-cat="all">Все варианты</button>
+          <button type="button" class="tab-pill" data-cat="living">Гостиная и спальня</button>
+          <button type="button" class="tab-pill" data-cat="kitchen">Кухня и ванная</button>
+          <button type="button" class="tab-pill" data-cat="light">Дизайнерский свет</button>
+        </div>
+
+        <div class="cards-grid">
+          <article class="ceiling-card anim-up" data-groups="living light">
+            <div class="ceiling-card__img">
+              <span class="ceiling-card__label">Тренд интерьера</span>
+              <img src="https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=800&q=80" alt="Теневые натяжные потолки в гостиной" loading="lazy">
+            </div>
+            <div class="ceiling-card__body">
+              <h3 class="ceiling-card__title">Теневые потолки</h3>
+              <p class="ceiling-card__desc">Ровный теневой контур по периметру без пластиковых вставок. Подчёркивает геометрию стен и идеально сочетается с треками.</p>
+              <div class="ceiling-card__foot">
+                <div class="ceiling-card__price">от 139 ₽/м²<small>монтаж под ключ</small></div>
+                <button type="button" class="btn btn--ghost" data-lead="Расчёт: Теневые потолки">Рассчитать</button>
+              </div>
+            </div>
+          </article>
+
+          <article class="ceiling-card anim-up" data-delay="90" data-groups="living light">
+            <div class="ceiling-card__img">
+              <span class="ceiling-card__label">Вместо люстры</span>
+              <img src="https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&w=800&q=80" alt="Потолки со световыми линиями" loading="lazy">
+            </div>
+            <div class="ceiling-card__body">
+              <h3 class="ceiling-card__title">Потолки со световыми линиями</h3>
+              <p class="ceiling-card__desc">Встроенные светодиодные линии любой формы создают равномерное основное освещение и зонируют комнату.</p>
+              <div class="ceiling-card__foot">
+                <div class="ceiling-card__price">от 139 ₽/м²<small>за полотно</small></div>
+                <button type="button" class="btn btn--ghost" data-lead="Расчёт: Потолки со световыми линиями">Рассчитать</button>
+              </div>
+            </div>
+          </article>
+
+          <article class="ceiling-card anim-up" data-delay="180" data-groups="living kitchen">
+            <div class="ceiling-card__img">
+              <span class="ceiling-card__label">Классика «Карэ Нуар»</span>
+              <img src="https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?auto=format&fit=crop&w=800&q=80" alt="Матовые натяжные потолки в спальне" loading="lazy">
+            </div>
+            <div class="ceiling-card__body">
+              <h3 class="ceiling-card__title">Матовые потолки</h3>
+              <p class="ceiling-card__desc">Благородная фактура идеально окрашенного потолка без бликов. Лучший выбор для спальни, детской и спокойной классики.</p>
+              <div class="ceiling-card__foot">
+                <div class="ceiling-card__price">от 139 ₽/м²<small>монтаж под ключ</small></div>
+                <button type="button" class="btn btn--ghost" data-lead="Расчёт: Матовые потолки">Рассчитать</button>
+              </div>
+            </div>
+          </article>
+
+          <article class="ceiling-card anim-up" data-groups="living light">
+            <div class="ceiling-card__img">
+              <span class="ceiling-card__label">LED-контур</span>
+              <img src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=800&q=80" alt="Парящие натяжные потолки с подсветкой" loading="lazy">
+            </div>
+            <div class="ceiling-card__body">
+              <h3 class="ceiling-card__title">Парящие потолки</h3>
+              <p class="ceiling-card__desc">Скрытая подсветка вдоль стен мягко подсвечивает фактуру отделки и создаёт уютный вечерний сценарий света.</p>
+              <div class="ceiling-card__foot">
+                <div class="ceiling-card__price">от 139 ₽/м²<small>монтаж под ключ</small></div>
+                <button type="button" class="btn btn--ghost" data-lead="Расчёт: Парящие потолки">Рассчитать</button>
+              </div>
+            </div>
+          </article>
+
+          <article class="ceiling-card anim-up" data-delay="90" data-groups="kitchen">
+            <div class="ceiling-card__img">
+              <span class="ceiling-card__label">Влагостойкие</span>
+              <img src="https://images.unsplash.com/photo-1556911220-bff31c812dba?auto=format&fit=crop&w=800&q=80" alt="Глянцевые натяжные потолки на кухне" loading="lazy">
+            </div>
+            <div class="ceiling-card__body">
+              <h3 class="ceiling-card__title">Глянцевые потолки</h3>
+              <p class="ceiling-card__desc">Зеркальный блеск визуально поднимает высоту потолка. Не боятся пара и влаги — оптимальны для кухни и ванной.</p>
+              <div class="ceiling-card__foot">
+                <div class="ceiling-card__price">от 139 ₽/м²<small>монтаж под ключ</small></div>
+                <button type="button" class="btn btn--ghost" data-lead="Расчёт: Глянцевые потолки">Рассчитать</button>
+              </div>
+            </div>
+          </article>
+
+          <article class="ceiling-card anim-up" data-delay="180" data-groups="living light">
+            <div class="ceiling-card__img">
+              <span class="ceiling-card__label">Сложная геометрия</span>
+              <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=800&q=80" alt="Двухуровневые натяжные потолки с фотопечатью" loading="lazy">
+            </div>
+            <div class="ceiling-card__body">
+              <h3 class="ceiling-card__title">Двухуровневые и фотопечать</h3>
+              <p class="ceiling-card__desc">Комбинирование уровней и фактур без пыльных гипсокартонных работ, а также стойкая эко-фотопечать для детских.</p>
+              <div class="ceiling-card__foot">
+                <div class="ceiling-card__price">от 139 ₽/м²<small>монтаж под ключ</small></div>
+                <button type="button" class="btn btn--ghost" data-lead="Расчёт: Двухуровневые и фотопечать">Рассчитать</button>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- 5. ПОРТФОЛИО -->
+    <section class="section" id="portfolio" style="padding-top: 0;">
+      <div class="container">
+        <div class="section-top section-top--row anim-up">
+          <div>
+            <span class="eyebrow">Портфолио работ</span>
+            <h2 class="display-h2">Реализованные проекты в Воронеже</h2>
+          </div>
+          <p class="section-note">
+            Нажмите на любую фотографию, чтобы рассмотреть интерьер в полном размере.
+          </p>
+        </div>
+
+        <div class="works-grid" id="worksGrid"></div>
+      </div>
+    </section>
+
+    <!-- 6. ОТЗЫВЫ -->
+    <section class="section reviews-band" id="reviews">
+      <div class="container">
+        <div class="section-top section-top--row anim-up">
+          <div>
+            <span class="eyebrow">Рейтинг 5.0 • 200+ оценок</span>
+            <h2 class="display-h2">Отзывы заказчиков студии Sturov</h2>
+          </div>
+          <div>
+            <a href="https://vk.ru/potolki36" target="_blank" rel="noopener noreferrer" class="btn btn--ghost">
+              Все отзывы в ВКонтакте →
+            </a>
+          </div>
+        </div>
+
+        <div class="reviews-list">
+          <article class="rev-card anim-up">
+            <div>
+              <div class="rev-card__stars">★★★★★</div>
+              <p class="rev-card__text">
+                «Заказывали теневые потолки “Карэ Нуар” со световыми линиями во всю квартиру. Технолог приехал в день обращения, применили сертификат на 7000 ₽. Монтажники работали с пылесосом, после себя оставили идеальный порядок.»
+              </p>
+            </div>
+            <div class="rev-card__meta">
+              <div>
+                <strong>Елена Ковалёва</strong>
+                <div style="font-size: 0.8rem; color: var(--ink-muted);">ЖК «Современник», Воронеж</div>
+              </div>
+              <span class="tag-chip">Проверен</span>
+            </div>
+          </article>
+
+          <article class="rev-card anim-up" data-delay="100">
+            <div>
+              <div class="rev-card__stars">★★★★★</div>
+              <p class="rev-card__text">
+                «Выбрал Sturov из-за официального статуса по “Карэ Нуар” и страховки от негарантийных случаев — и она выручила через полгода, когда соседи залили кухню. Бригада приехала оперативно, слила воду и восстановила полотно.»
+              </p>
+            </div>
+            <div class="rev-card__meta">
+              <div>
+                <strong>Дмитрий Морозов</strong>
+                <div style="font-size: 0.8rem; color: var(--ink-muted);">Ленинский проспект, Воронеж</div>
+              </div>
+              <span class="tag-chip">Проверен</span>
+            </div>
+          </article>
+
+          <article class="rev-card anim-up" data-delay="200">
+            <div>
+              <div class="rev-card__stars">★★★★★</div>
+              <p class="rev-card__text">
+                «Делали парящий потолок в прихожей и матовые в спальне. Полотна вообще без запаха, итоговая сумма в договоре не изменилась ни на рубль. Очень довольны аккуратностью углов и подсветкой.»
+              </p>
+            </div>
+            <div class="rev-card__meta">
+              <div>
+                <strong>Анна Соколова</strong>
+                <div style="font-size: 0.8rem; color: var(--ink-muted);">Коминтерновский р-н, Воронеж</div>
+              </div>
+              <span class="tag-chip">Проверен</span>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- 7. FAQ -->
+    <section class="section" id="faq">
+      <div class="container faq-grid">
+        <div class="anim-up">
+          <span class="eyebrow">Вопросы и ответы</span>
+          <h2 class="display-h2" style="margin-bottom: 16px;">Что важно знать до начала монтажа</h2>
+          <p class="section-note" style="margin-bottom: 28px;">
+            Отвечаем на популярные вопросы о страховке, сертификате на 7 000 ₽ и подготовке комнаты.
+          </p>
+          <button type="button" class="btn btn--copper" data-lead="Задать вопрос технологу">
+            Задать свой вопрос
+          </button>
+        </div>
+
+        <div class="anim-up" data-delay="120">
+          <div class="faq-box is-open">
+            <button type="button" class="faq-q" aria-expanded="true">
+              <span>Как работает страховка от негарантийных случаев?</span>
+              <span class="faq-plus">+</span>
+            </button>
+            <div class="faq-a" style="max-height: 200px;">
+              <p>При заключении договора каждый клиент Sturov получает защиту от бытовых ситуаций: случайного пореза, прокола полотна и залива соседями сверху. Сервисная бригада выезжает и восстанавливает потолок по условиям страховки.</p>
+            </div>
+          </div>
+
+          <div class="faq-box">
+            <button type="button" class="faq-q" aria-expanded="false">
+              <span>Как активировать сертификат на 7 000 ₽?</span>
+              <span class="faq-plus">+</span>
+            </button>
+            <div class="faq-a">
+              <p>Оставьте заявку на сайте или в нашей группе ВКонтакте до проведения замера. Сертификат закрепляется за вашим номером телефона и учитывается при расчёте заказа под ключ.</p>
+            </div>
+          </div>
+
+          <div class="faq-box">
+            <button type="button" class="faq-q" aria-expanded="false">
+              <span>Есть ли запах от полотен «Карэ Нуар»?</span>
+              <span class="faq-plus">+</span>
+            </button>
+            <div class="faq-a">
+              <p>Нет. Мы единственный официальный представитель европейских потолков «Карэ Нуар» в Воронеже. Оригинальные полотна сертифицированы для жилых и детских комнат и не выделяют запаха после монтажа.</p>
+            </div>
+          </div>
+
+          <div class="faq-box">
+            <button type="button" class="faq-q" aria-expanded="false">
+              <span>Сколько времени занимает установка потолка?</span>
+              <span class="faq-plus">+</span>
+            </button>
+            <div class="faq-a">
+              <p>Монтаж в одной комнате занимает 3–4 часа, в двухкомнатной квартире — 1 рабочий день. Используем инструмент с пылесборниками.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 8. КОНТАКТЫ -->
+    <section class="section" id="contacts" style="padding-top: 0;">
+      <div class="container">
+        <div class="section-top section-top--row anim-up">
+          <div>
+            <span class="eyebrow">Контакты в Воронеже</span>
+            <h2 class="display-h2">Ждём вас в шоурумах «Sturov»</h2>
+          </div>
+          <p class="section-note">
+            В офисах можно вживую посмотреть образцы полотен «Карэ Нуар», световые линии и теневые профили.
+          </p>
+        </div>
+
+        <div class="contacts-grid">
+          <div class="contacts-card anim-up">
+            <div>
+              <div class="lbl">Телефоны</div>
+              <a href="tel:+74732293861" class="tel-main">8 (473) 229-38-61</a>
+              <a href="tel:+79204156484" class="tel-extra">+7 (920) 415-64-84</a>
+              <a href="tel:+73432884055" class="tel-extra">+7 (343) 288-40-55</a>
+            </div>
+
+            <div>
+              <div class="lbl">Адреса офисов (нажмите, чтобы показать на карте)</div>
+              <button
+                type="button"
+                class="office-switch is-active"
+                data-map="https://yandex.ru/map-widget/v1/?text=%D0%92%D0%BE%D1%80%D0%BE%D0%BD%D0%B5%D0%B6%2C%20%D1%83%D0%BB.%20%D0%AD%D0%BB%D0%B5%D0%BA%D1%82%D1%80%D0%BE%D1%81%D0%B8%D0%B3%D0%BD%D0%B0%D0%BB%D1%8C%D0%BD%D0%B0%D1%8F%2C%2017%20%D0%BA%D0%BE%D1%80%D0%BF.%203&z=16"
+              >
+                📍 г. Воронеж, ул. Электросигнальная, 17, корп. 3
+              </button>
+              <button
+                type="button"
+                class="office-switch"
+                data-map="https://yandex.ru/map-widget/v1/?text=%D0%92%D0%BE%D1%80%D0%BE%D0%BD%D0%B5%D0%B6%2C%20%D0%9B%D0%B5%D0%BD%D0%B8%D0%BD%D1%81%D0%BA%D0%B8%D0%B9%20%D0%BF%D1%80%D0%BE%D1%81%D0%BF%D0%B5%D0%BA%D1%82%2C%20156%D0%92&z=16"
+              >
+                📍 г. Воронеж, Ленинский проспект, 156В
+              </button>
+            </div>
+
+            <div>
+              <div class="lbl">Режим работы</div>
+              <p style="font-weight: 700;">Ежедневно с 09:00 до 20:00</p>
+            </div>
+
+            <div style="display: flex; flex-wrap: wrap; gap: 10px;">
+              <button type="button" class="btn btn--copper" data-lead="Заказать обратный звонок">
+                Заказать звонок
+              </button>
+              <a href="https://vk.ru/potolki36" target="_blank" rel="noopener noreferrer" class="btn btn--forest">
+                Мы ВКонтакте
+              </a>
+            </div>
+          </div>
+
+          <div class="map-box anim-scale" data-delay="120">
+            <iframe
+              id="officeMap"
+              title="Офисы студии натяжных потолков Sturov в Воронеже"
+              src="https://yandex.ru/map-widget/v1/?text=%D0%92%D0%BE%D1%80%D0%BE%D0%BD%D0%B5%D0%B6%2C%20%D1%83%D0%BB.%20%D0%AD%D0%BB%D0%B5%D0%BA%D1%82%D1%80%D0%BE%D1%81%D0%B8%D0%B3%D0%BD%D0%B0%D0%BB%D1%8C%D0%BD%D0%B0%D1%8F%2C%2017%20%D0%BA%D0%BE%D1%80%D0%BF.%203&z=16"
+              loading="lazy"
+            ></iframe>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__grid">
+        <div>
+          <div style="font-weight: 800; font-size: 1.35rem; letter-spacing: 0.14em; color: #ffffff; margin-bottom: 10px;">
+            STUROV
+          </div>
+          <p style="max-width: 340px; font-size: 0.925rem; line-height: 1.6;">
+            Студия натяжных потолков в Воронеже. Единственный официальный представитель европейских потолков «Карэ Нуар» со страховкой от негарантийных случаев.
+          </p>
+        </div>
+
+        <div>
+          <div style="font-weight: 700; color: #ffffff; margin-bottom: 12px;">Навигация</div>
+          <nav class="footer__links" aria-label="Разделы в подвале">
+            <a href="#insurance">Страховка и гарантии</a>
+            <a href="#calculator">Калькулятор и сертификат 7 000 ₽</a>
+            <a href="#catalog">Виды потолков и цены</a>
+            <a href="#portfolio">Портфолио работ</a>
+            <a href="#reviews">Отзывы</a>
+            <a href="#contacts">Контакты</a>
+          </nav>
+        </div>
+
+        <div>
+          <div style="font-weight: 700; color: #ffffff; margin-bottom: 12px;">Контакты</div>
+          <div class="footer__links">
+            <a href="tel:+74732293861" style="color: #ffffff; font-weight: 700;">8 (473) 229-38-61</a>
+            <a href="tel:+79204156484">+7 (920) 415-64-84</a>
+            <a href="tel:+73432884055">+7 (343) 288-40-55</a>
+            <span>ул. Электросигнальная, 17, корп. 3</span>
+            <span>Ленинский проспект, 156В</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer__bottom">
+        <span>© 2026 Студия натяжных потолков «Sturov». г. Воронеж.</span>
+        <button type="button" id="policyTrigger" style="background: none; border: 0; color: rgba(255,255,255,0.72); text-decoration: underline; cursor: pointer; font-size: 0.85rem;">
+          Политика конфиденциальности
+        </button>
+      </div>
+    </div>
+  </footer>
+
+  <div class="mob-dock">
+    <a href="tel:+74732293861">Позвонить</a>
+    <button type="button" data-lead="Заказать бесплатный замер (мобильный)">Заказать замер</button>
+  </div>
+
+  <!-- МОДАЛЬНЫЕ ОКНА -->
+  <div class="modal-bg" id="leadModal" role="dialog" aria-modal="true" aria-hidden="true">
+    <div class="modal-card">
+      <button type="button" class="modal-x" data-close aria-label="Закрыть">×</button>
+      <h3 style="font-family: var(--font-serif); font-size: 1.85rem; line-height: 1.1; color: var(--forest); padding-right: 32px; margin-bottom: 8px;" id="modalTitle">
+        Бесплатный замер и расчёт
+      </h3>
+      <p style="font-size: 0.9rem; color: var(--ink-soft); margin-bottom: 18px;">
+        Перезвоним за 10 минут, закрепим сертификат на 7 000 ₽ и подберём удобное время выезда технолога.
+      </p>
+
+      <form id="leadForm" novalidate>
+        <input type="hidden" id="subjectField" value="Заявка с сайта">
+        <div class="inp-group">
+          <label for="nameField">Ваше имя</label>
+          <input type="text" id="nameField" placeholder="Например, Александр" required>
+          <span class="err-msg">Пожалуйста, введите имя (от 2 букв)</span>
+        </div>
+
+        <div class="inp-group">
+          <label for="phoneField">Телефон</label>
+          <input type="tel" id="phoneField" placeholder="+7 (___) ___-__-__" required>
+          <span class="err-msg">Введите корректный номер телефона</span>
+        </div>
+
+        <button type="submit" class="btn btn--copper" style="width: 100%;">Отправить заявку</button>
+        <div class="ok-banner" id="okBanner"></div>
+      </form>
+    </div>
+  </div>
+
+  <div class="modal-bg" id="policyModal" role="dialog" aria-modal="true" aria-hidden="true">
+    <div class="modal-card">
+      <button type="button" class="modal-x" data-close aria-label="Закрыть">×</button>
+      <h3 style="font-family: var(--font-serif); font-size: 1.65rem; color: var(--forest); margin-bottom: 12px;">Политика конфиденциальности</h3>
+      <p style="font-size: 0.9rem; color: var(--ink-soft); line-height: 1.6;">
+        Студия натяжных потолков «Sturov» (г. Воронеж) обрабатывает персональные данные (имя, телефон) исключительно для обратной связи, расчёта стоимости потолков и закрепления подарочных сертификатов в соответствии с 152-ФЗ.
+      </p>
+    </div>
+  </div>
+
+  <div class="modal-bg" id="lbModal" role="dialog" aria-modal="true" aria-hidden="true">
+    <div class="lb-wrap">
+      <div style="display: flex; justify-content: flex-end;">
+        <button type="button" class="modal-x" data-close style="position: static;">×</button>
+      </div>
+      <img src="" alt="" id="lbImg">
+      <div style="display: flex; justify-content: space-between; align-items: center; gap: 12px; flex-wrap: wrap;">
+        <strong id="lbCaption" style="font-size: 0.95rem;"></strong>
+        <div style="display: flex; gap: 8px;">
+          <button type="button" class="btn btn--ghost" id="lbPrev" style="color: #fff; border-color: rgba(255,255,255,0.3); min-height: 42px; padding: 8px 14px;">← Назад</button>
+          <button type="button" class="btn btn--ghost" id="lbNext" style="color: #fff; border-color: rgba(255,255,255,0.3); min-height: 42px; padding: 8px 14px;">Вперёд →</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
